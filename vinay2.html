@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Page</title>
+	<style>
+		
+
+.view-profile-btn {
+  background-color: #783226; /* Set background color */
+  border: none; /* Remove button border */
+  color: white; /* Set text color */
+  padding: 103px 50px; /* Add some padding to the button */
+  text-align: center; /* Center text within the button */
+  text-decoration: none; /* Remove underline from text */
+  display: inline-block; /* Make button a block element */
+  font-size: 136px; /* Set font size */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer when hovering over button */
+}
+
+.view-profile-btn:hover {
+  background-color: #3e8e41; /* Change background color when button is hovered over */
+}
+		.container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 400px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+		.text-box {
+			width: 45%;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			box-sizing: border-box;
+		}
+		.image-box {
+			width: 45%;
+			height: 100%;
+			background-image: url('https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMzczODV8MHwxfHNlYXJjaHw5fHxpbnZlc3RtZW50fGVufDB8MHx8fDE2ODM1MzQ3MDA&ixlib=rb-4.0.3&q=80&w=1080');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			box-sizing: border-box;
+		}
+		.text-box h2 {
+			font-size: 28px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			color: #333;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		.text-box p {
+			font-size: 16px;
+			color: #666;
+			margin-top: 20px;
+			line-height: 1.5;
+		}
+		.text-box p strong {
+			font-size: 20px;
+			color: #333;
+			font-weight: bold;
+		}
+		.text-box p:last-of-type {
+			margin-top: 40px;
+		}
+		.image-box img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.text-box-right {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			justify-content: flex-start;
+			height: 100%;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="text-box">
+			<h2>Why Invest With Us?</h2>
+			<p>Our experienced traders have a proven track record of generating consistent returns on investment. With our expert guidance, you can be confident in your investments and achieve your financial goals.</p>
+		</div>
+		<div class="image-box">
+			<img src="https://www.acceleratorsystems.io/wp-content/uploads/2021/01/Increase.png" alt="Increase your earnings" />
+		</div>
+	</div>
+	<button onclick="window.location.href='profile.html'">View Profile</button>
+	
+  
+	<div class="container">
+		<div class="image-box"></div>
+		<div class="text-box text-box-right">
+			<h2>Confidence and Certainty</h2>
+			
+			<p><strong>Our team of expert traders ensures 20% profit per month, guaranteed.</strong> Invest your money with confidence.</p>
+		
+			<img src="https://images.unsplash.com/photo-1534237710432-8a7d69ac2589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMzczODV8MHwxfHNlYXJjaHwxMXx8aW52ZXN0bWVud.png"alt=""/>
+		</div>
+	</div>
+</body>
+</html>
